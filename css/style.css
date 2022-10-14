@@ -1,0 +1,213 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header -----------------*/
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.accent {
+  color: var(--primary-text-color);
+}
+
+.header-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-nav-link.current {
+  color: var(--accent-color);
+}
+
+.contact-email-link,
+.contact-phone-link {
+  font-weight: 500;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.contact-email-link:hover,
+.contact-email-link:focus {
+  color: #188ce8;
+}
+
+.contact-phone-link:hover,
+.contact-phone-link:focus {
+  color: #188ce8;
+}
+
+/* hero -----------------*/
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advences-toptitle {
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+.advences-text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+
+.address {
+  line-height: 1.71;
+  color: var(--white-text-color);
+  font-style: normal;
+}
+
+/* portfolio -----------------*/
+
+.portfolio-title {
+  visibility: hidden;
+}
+
+.examples-title {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+
+.examples-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
+
+.examples-btn:hover,
+.examples-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+.examples-btn {
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-down {
+  color: var(--white-text-color);
+}
+
+.contact-email-link-footer,
+.contact-phone-link-footer {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-email-link-footer:hover,
+.contact-email-link-footer:focus {
+  color: #188ce8;
+}
+
+.contact-phone-link-footer:hover,
+.contact-phone-link-footer:focus {
+  color: #188ce8;
+}
