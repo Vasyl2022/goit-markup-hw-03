@@ -63,7 +63,7 @@ address {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -105,7 +105,7 @@ address {
 
 .contact-list {
   display: flex;
-  margin-left: 344px;
+  margin-left: auto;
 }
 
 .logo {
@@ -164,8 +164,8 @@ address {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hero-title {
@@ -245,14 +245,11 @@ address {
     padding-bottom: 94px;
 }
 
-.our-work-list {
-padding-top: 50px;
-padding-bottom: 94px;
+.our-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.our-team-list {
-padding-top: 50px;
-}
 
 .our-work-list:nth-child(3n) {
   margin-right: 0;
@@ -263,13 +260,14 @@ padding-top: 50px;
   color: var(--secondary-text-color);
 }
 
-.advances {
-  display: block;
-}
 
 .advences-list {
   display: flex;
   gap: 30px;
+}
+
+.advences-item {
+  width: 270px;
 }
 
 .section-title {
@@ -278,6 +276,7 @@ padding-top: 50px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .our-work-list,
@@ -286,16 +285,10 @@ display: flex;
 gap: 30px;
 }
 
-.our-work-list {
-  width: 1170px;
-  margin-left: 0;
-  margin-right: 0;
-}
 
 
 .our-team-item {
   width: 270px;
-  height: 368px;
   background-color: var(--main-color);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -303,7 +296,7 @@ gap: 30px;
   0px 1px 1px rgb(0 0 0 /14%),
   0px 2px 1px rgb(0 0 0 /20%);
   text-align: center;
-  
+  margin-bottom: 30px;
   
 }
 
@@ -335,6 +328,11 @@ margin-bottom: 9px;
 .contact-list-down {
   padding: 0;
 margin: 0;
+}
+
+
+.contact-email-down {
+  margin-bottom: 9px;
 }
 
 /* portfolio --------------------------------*/
@@ -421,6 +419,7 @@ margin-right: 0;
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-down {
@@ -431,14 +430,12 @@ margin-right: 0;
 .contact-email-link-footer {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
 }
 
 .contact-phone-link-footer {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   display: block;
-  padding-bottom: 60px;
 }
 
 
