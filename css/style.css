@@ -164,8 +164,8 @@ address {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -236,7 +236,7 @@ address {
 
 .advances {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 .our-team {
@@ -296,8 +296,8 @@ gap: 30px;
   0px 1px 1px rgb(0 0 0 /14%),
   0px 2px 1px rgb(0 0 0 /20%);
   text-align: center;
-  margin-bottom: 30px;
-  
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 
 .our-team-name {
@@ -338,7 +338,6 @@ margin: 0;
 /* portfolio --------------------------------*/
 
 .portfolio {
-  display: block;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -349,22 +348,18 @@ margin: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin-left:  auto;
-  margin-right:  auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  gap: 30px;
 
 }
 
 
 
 .examples > .examples-item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
-  background-color: #ffffff;
-  outline: 1px solid #eeeeee;
-  margin-top: var(--card-set-gap);
-  margin-right: var(--card-set-gap);
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
 }
 
 .examples-item:nth-child(3n) {
@@ -455,7 +450,8 @@ margin-right: 0;
   justify-content: center;
   gap: 8px;
   text-align: center;
-  margin: 0 auto;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
  }
 
